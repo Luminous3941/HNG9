@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    box-sizing: border-box;
+    font-family: "Montserrat",sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+#profile_img{
+    width: 88px;
+    height: 88px;
+    justify-content: center;
+    margin: 64px auto 24px;
+}
+.profile-img{
+    border-radius: 50px;
+}
+.my-name{
+    width: 1152px;
+    height: 24px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto 62px;
+    font-size: 24px;
+    font-weight: 700px;
+}
+#slack{
+    display: none;
+}
+.btn{
+    width: 1152px;
+    height: 72px;
+    margin: 24px auto;
+    background-color: lightgreen;
+    border-radius: 7px;
+}
+.tags{
+    width: max-content;
+    height: 24px;
+    margin: 0px auto;
+    padding: 24px 0;
+}
+.links{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 300;
+}
+.logo{
+    width: 1152px;
+    height: 72px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.slack_logo{
+    width: 24px;
+    height: 24px;
+    margin: 24px 24px 24px auto;
+}
+.git_logo{
+    width: 24px;
+    height: 24px;
+    margin: 24px auto 24px 0;
+}
+footer{
+    height: 160px;
+}
+.footer{
+    width: 1216px;
+    height: 64px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 48px 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.zuri_logo{
+    width: 187px;
+    height: 32px;
+    padding-top: 32px;
+}
+.foot_text{
+    width: 832px;
+    height: 24px;
+    padding-top: 36px;
+    margin: 0 32px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400px;
+    color: lightgrey;
+}
+.ingresive_logo{
+    width: 132px;
+    height: 32px;
+    padding-top: 32px;
+}
